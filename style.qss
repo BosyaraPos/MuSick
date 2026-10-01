@@ -1,0 +1,58 @@
+/* Общий фон окна */
+QWidget {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Стили для надписей (название файла) */
+QLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #bb86fc;
+    margin-bottom: 10px;
+}
+
+/* Стили для кнопок */
+QPushButton {
+    background-color: #1f1f1f;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #2c2c2c;
+    border-color: #bb86fc;
+}
+
+QPushButton:pressed {
+    background-color: #3700b3;
+    color: white;
+}
+
+/* Особый стиль для кнопки «Открыть файл» */
+QPushButton#openBtn {
+    background-color: #03dac6;
+    color: #000000;
+    font-weight: bold;
+}
+
+QPushButton#openBtn:hover {
+    background-color: #018786;
+}
+
+/* Слайдер громкости */
+QSlider::handle:horizontal {
+    background: #bb86fc;
+    width: 14px;
+    margin: -5px 0;
+    border-radius: 7px;
+}
+
+QSlider::groove:horizontal {
+    background: #333333;
+    height: 4px;
+}
