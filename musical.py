@@ -1,1 +1,2 @@
 day = 'evening'
+pizda = None
