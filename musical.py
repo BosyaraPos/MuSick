@@ -1,2 +1,0 @@
-day = 'evening'
-pizda = None
